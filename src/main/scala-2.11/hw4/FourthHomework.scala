@@ -3,13 +3,6 @@ package hw4
 import akka.actor._
 import hw4.LoggerMonad.Util._
 
-/*
-Домашнее задание на этот раз:
-
-  Создать приложение, удовлетворяющее следующим критериям:
-      Создать монаду LoggerMonad, позволяющую логировать события.
-      Акторы должны использовать LoggerMonad.
- */
 trait CustomActions {
 
   class MyActorActions {
